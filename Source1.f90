@@ -1,3 +1,8 @@
+
+!*************************************************************************
+! For Dr. Hamad. For MPM Paper. Will integrate into MPM
+!*************************************************************************
+
 subroutine GetLocForce(ps,p1,p2,MatProp,ps0,p10,p20,Force,IsInterpentration)
     implicit none
         double precision, intent(in) :: ps(2),p1(2),p2(2),MatProp(3),ps0(2),p10(2),p20(2)
